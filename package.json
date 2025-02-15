@@ -1,0 +1,21 @@
+{
+  "name": "spotify_project",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build": "npm install --prefix back_end && npm install --prefix front_end && npm run build --prefix front_end",
+    "start": "npm run start --prefix back_end"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Manel112/projetoSpotify.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Manel112/projetoSpotify/issues"
+  },
+  "homepage": "https://github.com/Manel112/projetoSpotify#readme",
+  "description": ""
+}
